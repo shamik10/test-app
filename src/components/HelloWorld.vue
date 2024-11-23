@@ -1,12 +1,12 @@
 <template>
   <div class="test-app" ref="copyHTML">
     <div class="header">
-      <img id="retrunBack" @click="undo()" src="../assets/back_btn.svg" alt="">
-      <img @click="redo()" src="../assets/forward_btn.svg" alt="">
-      <img @click="makeHeading()" src="../assets/heding.svg" alt="">
-      <img @click="makeParagraph()" src="../assets/Paragraph.svg" alt="">
-      <img @click="insertImage()" src="../assets/add_photo.svg" alt="">
-      <h6 class="copy-text-html" @click="copyHtmlFunc()">Скопировать текст в html</h6>
+      <img id="retrunBack" @click="undo" src="../assets/back_btn.svg" alt="">
+      <img @click="redo" src="../assets/forward_btn.svg" alt="">
+      <img @click="makeHeading" src="../assets/heding.svg" alt="">
+      <img @click="makeParagraph" src="../assets/Paragraph.svg" alt="">
+      <img @click="insertImage" src="../assets/add_photo.svg" alt="">
+      <h6 class="copy-text-html" @click="copyHtmlFunc">Скопировать текст в html</h6>
     </div>
     <div>
       <p contenteditable="true" ref="editableDiv">
